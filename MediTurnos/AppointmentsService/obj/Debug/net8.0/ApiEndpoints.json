@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "AppointmentsService.Controllers.AppointmentsController",
+    "Method": "CreateAppointment",
+    "RelativePath": "api/Appointments/appointment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cita",
+        "Type": "AppointmentsService.Models.Cita",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppointmentsService.Controllers.AppointmentsController",
+    "Method": "GetAppointments",
+    "RelativePath": "api/Appointments/appointments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppointmentsService.Controllers.AppointmentsController",
+    "Method": "CreateAvailability",
+    "RelativePath": "api/Appointments/availability",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "disponibilidad",
+        "Type": "AppointmentsService.Models.Disponibilidad",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
