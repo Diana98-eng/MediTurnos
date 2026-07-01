@@ -1,0 +1,169 @@
+.dashboard-container {
+  min-height: 100vh;
+  background: #f8f4ff;
+}
+
+/* HEADER */
+.dashboard-header {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.dashboard-header {
+  background: white;
+  color: #333;
+
+  padding: 15px 25px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.dashboard-header h1 {
+  color: #2d7fc2;
+}
+
+.user-section {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.user-section button {
+  background: #30a9fa;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* BIENVENIDA */
+.welcome-section {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 30px;
+  text-align: center;
+}
+
+.welcome-tag {
+  background: #ede9fe;
+
+  color: #0521c1;
+
+  padding: 10px 18px;
+
+  border-radius: 30px;
+
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* TARJETAS */
+.cards-container {
+  max-width: 1200px;
+  margin: 30px auto;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 25px;
+}
+
+.card-horizontal {
+  background: white;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px;
+
+  border-radius: 20px;
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+
+  transition: 0.3s;
+}
+
+.card-horizontal:hover {
+  transform: translateY(-3px);
+}
+
+.card-content {
+  flex: 1;
+}
+
+.card-content h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.card-content p {
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.card-content button {
+  background: #2d7fc2;
+  color: white;
+
+  border: none;
+
+  padding: 12px 20px;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+}
+
+.card-content button:hover {
+  background: #2d7fc2;
+}
+
+.card-image img {
+  width: 220px;
+  height: 140px;
+
+  object-fit: cover;
+
+  border-radius: 15px;
+}
+
+/* ESTADÍSTICAS */
+.stats-container {
+  max-width: 1200px;
+  margin: 30px auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 20px;
+}
+
+.stat-card {
+  background: white;
+
+  padding: 20px;
+
+  border-radius: 20px;
+
+  text-align: center;
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.stat-card h4 {
+  color: #2d7fc2;
+}
+
+.stat-card p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}

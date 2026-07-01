@@ -137,3 +137,4 @@ C:\Users\diana\Desktop\mediturnos\MediTurnos\AppointmentsService\obj\Debug\net8.
 C:\Users\diana\Desktop\mediturnos\MediTurnos\AppointmentsService\obj\Debug\net8.0\AppointmentsService.pdb
 C:\Users\diana\Desktop\mediturnos\MediTurnos\AppointmentsService\obj\Debug\net8.0\AppointmentsService.genruntimeconfig.cache
 C:\Users\diana\Desktop\mediturnos\MediTurnos\AppointmentsService\obj\Debug\net8.0\ref\AppointmentsService.dll
+C:\Users\diana\Desktop\mediturnos\MediTurnos\AppointmentsService\obj\Debug\net8.0\AppointmentsService.sourcelink.json

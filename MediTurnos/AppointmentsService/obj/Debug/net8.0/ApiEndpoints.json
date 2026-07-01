@@ -1,6 +1,48 @@
 [
   {
     "ContainingType": "AppointmentsService.Controllers.AppointmentsController",
+    "Method": "CancelAppointment",
+    "RelativePath": "api/Appointments/{id}/cancel",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppointmentsService.Controllers.AppointmentsController",
+    "Method": "ConfirmAppointment",
+    "RelativePath": "api/Appointments/{id}/confirm",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppointmentsService.Controllers.AppointmentsController",
+    "Method": "GetActiveAppointments",
+    "RelativePath": "api/Appointments/active",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppointmentsService.Controllers.AppointmentsController",
     "Method": "CreateAppointment",
     "RelativePath": "api/Appointments/appointment",
     "HttpMethod": "POST",
@@ -39,6 +81,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppointmentsService.Controllers.AppointmentsController",
+    "Method": "GetAvailability",
+    "RelativePath": "api/Appointments/availability",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   }
 ]

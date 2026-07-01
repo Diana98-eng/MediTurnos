@@ -130,10 +130,11 @@ C:\Users\diana\Desktop\mediturnos\MediTurnos\UsersService\obj\Debug\net8.0\stati
 C:\Users\diana\Desktop\mediturnos\MediTurnos\UsersService\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\diana\Desktop\mediturnos\MediTurnos\UsersService\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\diana\Desktop\mediturnos\MediTurnos\UsersService\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\diana\Desktop\mediturnos\MediTurnos\UsersService\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\diana\Desktop\mediturnos\MediTurnos\UsersService\obj\Debug\net8.0\UsersSer.370FECAF.Up2Date
 C:\Users\diana\Desktop\mediturnos\MediTurnos\UsersService\obj\Debug\net8.0\UsersService.dll
 C:\Users\diana\Desktop\mediturnos\MediTurnos\UsersService\obj\Debug\net8.0\refint\UsersService.dll
 C:\Users\diana\Desktop\mediturnos\MediTurnos\UsersService\obj\Debug\net8.0\UsersService.pdb
 C:\Users\diana\Desktop\mediturnos\MediTurnos\UsersService\obj\Debug\net8.0\UsersService.genruntimeconfig.cache
 C:\Users\diana\Desktop\mediturnos\MediTurnos\UsersService\obj\Debug\net8.0\ref\UsersService.dll
+C:\Users\diana\Desktop\mediturnos\MediTurnos\UsersService\obj\Debug\net8.0\UsersService.sourcelink.json
+C:\Users\diana\Desktop\mediturnos\MediTurnos\UsersService\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

@@ -47,6 +47,18 @@
           }
         }
       }
+    },
+    "/api/Users/profesionales": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -71,6 +83,10 @@
             "nullable": true
           },
           "rol": {
+            "type": "string",
+            "nullable": true
+          },
+          "especialidad": {
             "type": "string",
             "nullable": true
           }

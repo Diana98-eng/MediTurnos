@@ -32,5 +32,21 @@ namespace UsersService.Controllers
 
             return Ok(usuario);
         }
+
+        [HttpGet("profesionales")]
+        public IActionResult GetProfesionales()
+        {
+            var profesionales = _context.Usuarios
+                .Where(u => u.Rol == "medico")
+                .Select(u => new
+                {
+                    u.IdUsuario,
+                    u.Nombre,
+                    u.Especialidad
+                })
+                .ToList();
+
+            return Ok(profesionales);
+        }
     }
 }

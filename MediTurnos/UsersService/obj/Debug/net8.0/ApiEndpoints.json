@@ -11,6 +11,16 @@
   },
   {
     "ContainingType": "UsersService.Controllers.UsersController",
+    "Method": "GetProfesionales",
+    "RelativePath": "api/Users/profesionales",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UsersService.Controllers.UsersController",
     "Method": "Register",
     "RelativePath": "api/Users/register",
     "HttpMethod": "POST",

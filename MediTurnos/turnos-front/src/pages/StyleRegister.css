@@ -1,0 +1,87 @@
+.re-container {
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image:
+    linear-gradient(
+      rgba(255,255,255,0.75),
+      rgba(255,255,255,0.75)
+    ),
+    url("https://images.pexels.com/photos/9105589/pexels-photo-9105589.jpeg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.register-card {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  background: rgba(201, 228, 248, 0.427);
+  backdrop-filter: blur(12px);
+  padding: 40px;
+  width: 90%;
+  max-width: 440px;
+  border-radius: 25px;
+  box-shadow:
+    0 20px 50px rgba(0,0,0,.12);
+  text-align: center;
+}
+
+.medical-icon {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.register-card h2 {
+  color: #0b7cb4;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.register-card p {
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.register-form input {
+  padding: 15px;
+  border: 2px solid #e5e7eb;
+  border-radius: 14px;
+  font-size: 15px;
+  transition: all .3s ease;
+}
+
+.register-form input:focus {
+  outline: none;
+  border-color: #0b7cb4c4;
+  box-shadow:
+    0 0 0 4px rgba(11,124,180,.15);
+}
+
+.register-form button {
+  transition: all .3s ease;
+  padding: 14px;
+  background: #0b7cb4c4;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.register-form button:hover {
+  background: #09608c;
+  transform: translateY(-2px);
+}

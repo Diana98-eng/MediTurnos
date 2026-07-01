@@ -3,9 +3,7 @@ namespace AppointmentsService.Models
 {
     public class Disponibilidad
     {
-        [Key]
         public int IdDisponibilidad { get; set; }
-
         public int IdDoctor { get; set; }
 
         public DateTime Fecha { get; set; }
@@ -13,5 +11,6 @@ namespace AppointmentsService.Models
         public TimeSpan HoraInicio { get; set; }
 
         public TimeSpan HoraFin { get; set; }
+
     }
 }

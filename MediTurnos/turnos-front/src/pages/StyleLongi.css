@@ -1,0 +1,98 @@
+.login-container {
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image:
+    linear-gradient(
+      rgba(255,255,255,0.75),
+      rgba(255,255,255,0.75)
+    ),
+    url("https://images.pexels.com/photos/9105589/pexels-photo-9105589.jpeg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.login-card {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  background: rgba(201, 228, 248, 0.427);
+  backdrop-filter: blur(12px);
+  padding: 60px;
+  width: 90%;
+  max-width: 460px;
+  border-radius: 28px;
+  text-align: center;
+  box-shadow:
+    0 20px 50px rgba(0,0,0,.12);
+}
+
+.login-card h2 {
+  color: #0b7cb4;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.login-card p {
+  color: #666;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login-form input {
+  padding: 15px;
+  border: 2px solid #e5e7eb;
+  border-radius: 14px;
+  font-size: 15px;
+  transition: all .3s ease;
+}
+
+.login-form input:focus {
+  outline: none;
+  border-color: #0b7cb4;
+  box-shadow:
+    0 0 0 4px rgba(11,124,180,.15);
+}
+
+.login-form button {
+  padding: 14px;
+  background: #0b7cb4;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+.login-form button:hover {
+  background: #09608c;
+  transform: translateY(-2px);
+}
+
+.login-form button:active {
+  transform: translateY(0);
+}
+
+.back-arrow {
+  margin-top: 10px;
+  color: #0b7cb4;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.back-arrow:hover {
+  text-decoration: underline;
+}

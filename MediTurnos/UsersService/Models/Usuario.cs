@@ -13,5 +13,7 @@ namespace UsersService.Models
         public string Password { get; set; }
 
         public string Rol { get; set; }
+        public string? Especialidad { get; set; }
+
     }
 }
